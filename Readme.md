@@ -27,7 +27,7 @@ Below is an example of a detected vertical text region (with bounding box overla
 <img width="774" height="1000" alt="87594142_87594144" src="https://github.com/user-attachments/assets/2e0bdd40-f7c3-4488-9c1e-6b8198f8fda5" />
 
 **Detection:**
-<img width="600" height="803" alt="image" src="https://github.com/user-attachments/assets/007b5cef-aa8d-4918-baa1-22f1e396a3b3" />
+<img width="628" height="809" alt="image" src="https://github.com/user-attachments/assets/4ed0d6df-743c-4f03-9158-2550bff4a8f3" />
 
 
 **Cropped Section:**
