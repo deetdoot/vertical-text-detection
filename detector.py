@@ -89,3 +89,5 @@ for img_name in image_files:
             # Save cropped image
             crop_filename = f"detected_segments_rotated/{os.path.splitext(img_name)[0]}_rotcrop_{i}_{name}.jpg"
             cv2.imwrite(crop_filename, crop_img_masked)
+
+    break
