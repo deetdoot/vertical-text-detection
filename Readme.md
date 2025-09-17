@@ -33,7 +33,6 @@ Below is an example of a detected vertical text region (with bounding box overla
 **Cropped Section:**
 ![87594142_87594144_rotcrop_0_vertical-slanted](https://github.com/user-attachments/assets/235a3837-e985-419a-94e6-5515e17d06d5)
 
-*Replace `example_detection.jpg` with a real output from your project after running the script.*
 
 ## Training
 To train your own model, use the provided `train_model.py` script:
@@ -52,3 +51,24 @@ results = model.train(data="first_run.yaml", epochs=100, imgsz=640)
 
 ## Credits
 Developed by Emtiaz Ahamed Emon
+
+## Dataset
+
+This project uses the FUNSD dataset for form understanding in noisy scanned documents.
+
+
+## License
+
+This project is for educational and research purposes only.
+
+- The YOLO model and code are licensed under the AGPL-3.0 license by Ultralytics. Commercial use requires explicit permission from Ultralytics.
+- The FUNSD dataset is used under its academic/research terms. For any commercial use, please contact the dataset authors for approval.
+- Please cite the original sources for Ultralytics YOLO and FUNSD as references above.
+
+
+- **Dataset used:**
+  Jaume, G., Ekenel, H. K., & Thiran, J. P. (2019, September). FUNSD: A dataset for form understanding in noisy scanned documents. In 2019 International Conference on Document Analysis and Recognition Workshops (ICDARW) (Vol. 2, pp. 1-6). IEEE.
+- **Github:**
+  https://github.com/crcresearch/FUNSD
+
+The FUNSD dataset contains annotated forms and is widely used for document layout analysis and form understanding tasks.
