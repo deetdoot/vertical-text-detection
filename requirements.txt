@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-dotenv
+pillow
+numpy
+opencv-python
+ultralytics
+matplotlib
+pytesseract
+jinja2
