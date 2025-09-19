@@ -1,8 +1,9 @@
 
 from PIL import Image
+from networkx import config
 import pytesseract
 
-def find_best_ocr_rotation(image_path, angles=[0, 90, 180, 270], whitelist="0123456789"):
+def find_best_ocr_rotation(image_path, angles=[90], whitelist="0123456789"):
     """
     Rotates the image by each angle, runs OCR, and returns the best result (longest digit string).
     Returns: (best_text, best_angle)
@@ -12,7 +13,7 @@ def find_best_ocr_rotation(image_path, angles=[0, 90, 180, 270], whitelist="0123
     best_angle = 0
     for angle in angles:
         rotated = img.rotate(angle, expand=True)
-        config = f"--psm 7 -c tessedit_char_whitelist={whitelist}"
+        config = f"-l eng --psm 6"
         text = pytesseract.image_to_string(rotated, config=config).strip()
         print(f"Angle {angle}: {text}")
         if len(text) > len(best_text):

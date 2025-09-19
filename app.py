@@ -84,6 +84,7 @@ async def detect_vertical_text(
                 buf.seek(0)
                 best_text, best_angle = find_best_ocr_rotation(buf)
                 crop_base64 = base64.b64encode(buf.getvalue()).decode('utf-8')
+                if not best_text: continue
                 crops.append({
                     "crop_image": crop_base64,
                     "ocr_text": best_text,
