@@ -9,7 +9,7 @@ This project uses a YOLO Oriented Bounding Box (OBB) model to detect vertical te
 ## Features
 - Detects vertical text in document images using YOLO OBB.
 - Crops detected regions using rotated bounding boxes.
-- Exports cropped regions to `detected_segments_rotated/`.
+- Exports cropped regions to `detected_segments/`.
 - Prints class name, rotated box coordinates, and confidence score for each detection.
 
 ## Usage
@@ -18,7 +18,7 @@ This project uses a YOLO Oriented Bounding Box (OBB) model to detect vertical te
    ```bash
    python detector.py
    ```
-3. Cropped vertical text regions will be saved in `detected_segments_rotated/`.
+3. Cropped vertical text regions will be saved in `detected_segments/`.
 
 ## Example Screenshot
 Below is an example of a detected vertical text region (with bounding box overlay):

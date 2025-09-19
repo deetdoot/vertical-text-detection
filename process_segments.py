@@ -23,5 +23,5 @@ def find_best_ocr_rotation(image_path, angles=[0, 90, 180, 270], whitelist="0123
 
 # Example usage:
 if __name__ == "__main__":
-    image_path = "detected_segments_rotated/new.jpg"
+    image_path = "detected_segments/new.jpg"
     find_best_ocr_rotation(image_path)
