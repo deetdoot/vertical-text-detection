@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-dotenv
+pillow
+numpy
+opencv-python
+ultralytics
+matplotlib
+pytesseract
+jinja2
+python-multipart
+libigl
+pytesseract==0.3.13
