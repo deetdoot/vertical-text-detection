@@ -11,3 +11,4 @@ jinja2
 python-multipart
 libigl
 pytesseract==0.3.13
+uvicorn==0.36.0
