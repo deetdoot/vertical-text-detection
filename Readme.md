@@ -34,6 +34,12 @@ Below is an example of a detected vertical text region (with bounding box overla
 ![87594142_87594144_rotcrop_0_vertical-slanted](https://github.com/user-attachments/assets/235a3837-e985-419a-94e6-5515e17d06d5)
 
 
+
+
+## Running the docker container.  Go to localhost:<PORT> for the frontend
+<img width="1229" height="761" alt="image" src="https://github.com/user-attachments/assets/f70b2e05-9349-45a5-a2f4-8c23fa07fdff" />
+
+
 ## Training
 To train your own model, use the provided `train_model.py` script:
 ```python
