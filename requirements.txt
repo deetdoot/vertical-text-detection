@@ -2,7 +2,7 @@ fastapi
 python-dotenv==1.0.1
 pillow==10.4.0
 numpy==2.2.6
-opencv-python==4.11.0.8
+opencv-python==4.11.0.86
 ultralytics==8.3.202
 matplotlib==3.10.6
 Jinja2==3.1.6

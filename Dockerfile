@@ -16,7 +16,7 @@ RUN apt-get install -y tesseract-ocr libtesseract-dev libleptonica-dev pkg-confi
 COPY . .
 
 # # Copy .env file
-COPY .env /app/.env
+# COPY .env /app/.env
 
 # Expose port (default 8000)
 EXPOSE 8000
