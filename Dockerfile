@@ -3,9 +3,10 @@ FROM python:3.10-slim
 
 # Set work directory
 WORKDIR /app
-
+RUN pip install --upgrade pip
 # Copy requirements and install
 COPY requirements.txt ./
+
 RUN pip install --no-cache-dir -r requirements.txt
 RUN apt-get update && apt-get install -y libgl1 libglib2.0-0
 RUN apt-get install -y tesseract-ocr libtesseract-dev libleptonica-dev pkg-config
@@ -15,7 +16,7 @@ RUN apt-get install -y tesseract-ocr libtesseract-dev libleptonica-dev pkg-confi
 COPY . .
 
 # # Copy .env file
-# COPY .env /app/.env
+COPY .env /app/.env
 
 # Expose port (default 8000)
 EXPOSE 8000
