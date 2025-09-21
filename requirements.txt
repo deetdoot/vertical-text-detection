@@ -1,12 +1,13 @@
 fastapi
-python-dotenv==1.1.1
-pillow==11.1.0
-numpy==2.2.6
-opencv-python==4.12.0.88
-ultralytics==8.3.202
-matplotlib==3.10.6
-Jinja2==3.1.6
-python-multipart== 0.0.20
-libigl==2.6.1
+uvicorn
+python-dotenv
+pillow
+numpy
+opencv-python
+ultralytics
+matplotlib
+pytesseract
+jinja2
+python-multipart
+libigl
 pytesseract==0.3.13
-uvicorn==0.36.0
